@@ -48,7 +48,7 @@
 
         <div class="form-group">
           <input type="submit" value='Save Changes' class='btn btn-success btn-lg'>
-          <a href="" class='btn btn-danger btn-lg pull-right'>Go Back</a>
+          <a href="{{ URL::previous() }}" class='btn btn-danger btn-lg pull-right'>Go Back</a>
         </div>
       </form>
     </div>
